@@ -105,7 +105,7 @@ set_wallpaper() {
       gsettings set org.gnome.desktop.background picture-uri "file:///tmp/wallpaper.jpg"
     }
     
-    gsettings set org.gnome.desktop.background picture-options "zoom"
+    gsettings set org.gnome.desktop.background picture-options "centered"
     echo "Wallpaper set successfully."
   else
     echo "GNOME not detected, skipping wallpaper setup."
